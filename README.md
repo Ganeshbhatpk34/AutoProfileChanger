@@ -1,2 +1,2 @@
 # Androidstd
-A project to access the student information.
+My Android Project Packages. For Any Quarry Contact me.
