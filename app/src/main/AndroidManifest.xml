@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ganapthi.autoprofiler"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.nightowl.profiler.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <permission
+        android:name="com.ganapthi.autoprofiler.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" >
+    </permission>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.ganapthi.autoprofiler.MapsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAPSACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ganapthi.autoprofiler.AndroidGPSTrackingActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ANDROIDGPSTRACKINGACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAkN6Vzd6_sEsKfg3KrYFwcOkaHOEiKoww" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" >
+        </meta-data>
+
+        
+
+        <activity
+            android:name="com.ganapthi.autoprofiler.ProfileList"
+            android:label="@string/title_activity_profile_list" 
+            android:noHistory="true">
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <service android:enabled="true" android:name="com.ganapthi.autoprofiler.LocationService">
+            <intent-filter>
+                <action android:name="com.nightowl.profiler.intent.action.SERVICE" />
+            </intent-filter>
+        </service>
+        
+        <service android:name="com.ganapthi.autoprofiler.GPSTracker" android:enabled="true"></service>
+        
+        <!-- <receiver android:name="com.nightowl.profiler.ProximityDetector" android:enabled="true">
+        </receiver> -->
+        
+    </application>
+
+</manifest>

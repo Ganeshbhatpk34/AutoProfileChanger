@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+ 	
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvName"
+        android:ems="10"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etName"
+        android:layout_marginTop="18dp"
+        android:text="Longitude"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etlongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvLongitude"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etlongitude"
+        android:layout_marginTop="19dp"
+        android:text="Latitude"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvLatitude"
+        android:ems="10"
+        android:inputType="text" />
+
+      <Button
+          android:id="@+id/btnSave"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:background="@drawable/button"
+          android:gravity="center"
+          android:shadowColor="#A8A8A8"
+          android:text="Save"
+          android:textColor="@android:color/black"
+          android:textSize="25sp" />
+
+      <Button
+          android:id="@+id/btnShowLocation"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/etLatitude"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="14dp"
+          android:background="@drawable/button"
+          android:gravity="center"
+          android:shadowColor="#A8A8A8"
+          android:text="Obtain Location"
+          android:textColor="@android:color/black"
+          android:textSize="25sp" />
+
+      <Button
+          android:id="@+id/btnShowMap"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/btnShowLocation"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="11dp"
+          android:background="@drawable/button"
+          android:gravity="center"
+          android:shadowColor="#A8A8A8"
+          android:text="Show Map"
+          android:textColor="@android:color/black"
+          android:textSize="25sp"
+          android:visibility="gone"  />
+
+      <Spinner
+          android:id="@+id/spinner"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/btnShowMap"
+          android:layout_marginTop="18dp"
+          android:entries="@array/items"
+          android:prompt="@string/spinner" />
+
+</RelativeLayout>

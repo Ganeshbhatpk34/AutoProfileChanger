@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidGPSTrackingActivity!</string>
+    <string name="app_name">Profiler</string>
+    <string name="spinner">Select Profile</string>
+
+    <string-array name="items">
+        <item> Silent </item>
+        <item> Vibrate </item>
+        <item> Loud </item>
+    </string-array>
+
+    <string name="title_activity_proximity_detector">ProximityDetector</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_profile_list">ProfileList</string>
+
+</resources>
