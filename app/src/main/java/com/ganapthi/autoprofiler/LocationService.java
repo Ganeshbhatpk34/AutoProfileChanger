@@ -8,6 +8,7 @@ import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.location.Location;
@@ -18,9 +19,11 @@ import android.os.IBinder;
 import android.util.Log;
 import android.widget.Toast;
 
+import androidx.core.app.ActivityCompat;
+
 public class LocationService extends Service implements LocationListener {
-	
-	private  final String proximityIntentAction = "com.ganapthi.autoprofiler.Proximity";
+
+	private final String proximityIntentAction = "com.ganapthi.autoprofiler.Proximity";
 
 	SQLiteDatabase db;
 
@@ -55,27 +58,38 @@ public class LocationService extends Service implements LocationListener {
 	@Override
 	public int onStartCommand(Intent intent, int flags, int startId) {
 		locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-		locationManager.requestLocationUpdates(
-				LocationManager.GPS_PROVIDER, 400, 1, this);
+		if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+			// TODO: Consider calling
+			//    ActivityCompat#requestPermissions
+			// here to request the missing permissions, and then overriding
+			//   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+			//                                          int[] grantResults)
+			// to handle the case where the user grants the permission. See the documentation
+			// for ActivityCompat#requestPermissions for more details.
+			return Service.START_STICKY;
+		} else {
+			locationManager.requestLocationUpdates(
+					LocationManager.GPS_PROVIDER, 400, 1, this);
 
-		Cursor c = db_access.retrieveLocation(db);
+			Cursor c = db_access.retrieveLocation(db);
 
-		while (c.moveToNext()) {
-			int longitude1 = c.getColumnIndex("longitude");
-			int latitude1 = c.getColumnIndex("latitude");
-			int name1 = c.getColumnIndex("name");
-			int profile1 = c.getColumnIndex("profile");
+			while (c.moveToNext()) {
+				int longitude1 = c.getColumnIndex("longitude");
+				int latitude1 = c.getColumnIndex("latitude");
+				int name1 = c.getColumnIndex("name");
+				int profile1 = c.getColumnIndex("profile");
 
-			this.longitude = c.getDouble(longitude1);
-			this.latitude = c.getDouble(latitude1);
-			this.name = c.getString(name1);
-			this.profile = c.getString(profile1);
+				this.longitude = c.getDouble(longitude1);
+				this.latitude = c.getDouble(latitude1);
+				this.name = c.getString(name1);
+				this.profile = c.getString(profile1);
 
-			addProximityAlert(this.latitude, this.longitude, this.name,
-					this.profile);
+				addProximityAlert(this.latitude, this.longitude, this.name,
+						this.profile);
+			}
+
+			return Service.START_STICKY;
 		}
-
-		return Service.START_STICKY;
 	}
 
 	@Override
@@ -95,7 +109,7 @@ public class LocationService extends Service implements LocationListener {
 	}
 
 	public void addProximityAlert(double latitude, double longitude,
-			String name, String profile) {
+								  String name, String profile) {
 
 		// Context context = getApplicationContext();
 		Intent intent = new Intent(proximityIntentAction);
@@ -110,15 +124,21 @@ public class LocationService extends Service implements LocationListener {
 					getApplicationContext(), 0, intent,
 					PendingIntent.FLAG_ONE_SHOT);
 
+			if (ActivityCompat.checkSelfPermission(this,
+					android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+				// TODO: Consider calling
+				//    ActivityCompat#requestPermissions
+				// here to request the missing permissions, and then overriding
+				//   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+				//                                          int[] grantResults)
+				// to handle the case where the user grants the permission. See the documentation
+				// for ActivityCompat#requestPermissions for more details.
+				return;
+			}
 			locationManager.addProximityAlert(longitude, latitude, 1, -1,
 					pendingIntent);
 
-			Toast.makeText(getApplicationContext(), "alert added for " + name,
-					600).show();
-
-			Log.d("Current Loc",
-					locationManager.getLastKnownLocation(
-							LocationManager.GPS_PROVIDER).toString());
+			Toast.makeText(getApplicationContext(), "alert added for " + name, Toast.LENGTH_SHORT).show();
 			// getApplicationContext().sendBroadcast(intent);
 			IntentFilter filter = new IntentFilter(proximityIntentAction);
 			registerReceiver(new ProximityDetector(), filter);
@@ -150,8 +170,7 @@ public class LocationService extends Service implements LocationListener {
 		
 		 Log.v("Service","Location changed");
 		    if (location != null) {
-		            Log.d("Location changed : Lat: ", ""+location.getLatitude());
-		            Log.d("Location changed : Lon: ", ""+location.getLongitude());
+
 		    }
 
 	}

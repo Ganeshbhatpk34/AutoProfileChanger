@@ -8,12 +8,12 @@
         "source": "/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/res/layout/activity_profile_list.xml"
     },
     {
-        "merged": "/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/build/intermediates/res/merged/debug/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/res/drawable/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/build/intermediates/res/merged/debug/drawable_ic_check_circle_black_24dp.xml.flat",
         "source": "/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/res/drawable/ic_check_circle_black_24dp.xml"
+    },
+    {
+        "merged": "/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/build/intermediates/res/merged/debug/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/res/drawable/ic_launcher_foreground.xml"
     },
     {
         "merged": "/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/build/intermediates/res/merged/debug/layout_maps.xml.flat",
