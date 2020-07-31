@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml",
+            "outputFile": "/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml",
             "map": [
                 {
                     "source": "/home/ganapathi/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/play-services-base-17.0.0/res/values-fi/values.xml",

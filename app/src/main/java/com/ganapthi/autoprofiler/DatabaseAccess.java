@@ -49,7 +49,7 @@ public class DatabaseAccess implements Serializable{
      */
     public SQLiteDatabase openDatabase() {
         File dbFile = context.getDatabasePath(DB_NAME);
-        File databaseFile = new File("/data/data/com.nightowl.profiler/databases");
+        File databaseFile = new File("/data/data/com.ganapthi.autoprofiler/databases");
 
         if (!dbFile.exists()) {
             try {
@@ -101,7 +101,7 @@ public class DatabaseAccess implements Serializable{
     /*
      * to delete a record from the database
      */
-    public int delete_profile(SQLiteDatabase db){
+    public int delete_profile(SQLiteDatabase db) {
 		return 0;
     }
     
@@ -112,6 +112,12 @@ public class DatabaseAccess implements Serializable{
     	Cursor c = db.rawQuery("SELECT * FROM location", null);
     	return c;   	
     	
+    }
+
+    public Cursor clearLocation(SQLiteDatabase db){
+        Cursor c = db.rawQuery("Delete FROM location", null);
+        return c;
+
     }
     
 }

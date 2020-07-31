@@ -66,16 +66,15 @@ public class AndroidGPSTrackingActivity extends Activity {
 				loc.setProfile_name(profile);
 				loc.setLongitude(longitude);
 				loc.setLatitude(latitude);
-				
+
 				int rowCheck = dbAccess.store_location(db, loc);
 				if (rowCheck == -1) {
 					Toast.makeText(getApplicationContext(),
-							"Error occured while storing the record", 600)
+							"Error occured while storing the record", Toast.LENGTH_LONG)
 							.show();
-				}
-				else{
+				} else {
 					Toast.makeText(getApplicationContext(),
-							"Success", 200)
+							"Success", Toast.LENGTH_SHORT)
 							.show();
 					Intent profileListIntent = new Intent(AndroidGPSTrackingActivity.this, ProfileList.class);
 					startActivity(profileListIntent);
@@ -131,5 +130,4 @@ public class AndroidGPSTrackingActivity extends Activity {
 		});
 
 	}
-
 }

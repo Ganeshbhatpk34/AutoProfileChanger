@@ -6,170 +6,167 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
+8-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
+9-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-11-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:7:5-79
-11-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:7:22-76
+11-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:7:5-79
+11-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:7:22-76
 12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:8:5-81
-12-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:8:22-78
+12-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:8:5-81
+12-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:8:22-78
 13    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-13-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:9:5-98
-13-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:9:22-95
-14    <uses-permission android:name="com.nightowl.profiler.permission.MAPS_RECEIVE" />
-14-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:10:5-85
-14-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:10:22-82
+13-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:9:5-98
+13-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:9:22-95
+14    <uses-permission android:name="com.ganapthi.autoprofiler.permission.MAPS_RECEIVE" />
+14-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:10:5-89
+14-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:10:22-86
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:11:5-79
-15-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:11:22-76
+15-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:11:5-79
+15-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:11:22-76
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:12:5-67
-16-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:12:22-64
-17    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
-17-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:13:5-78
-17-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:13:22-76
-18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-18-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:14:5-80
-18-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:14:22-78
-19
-20    <permission
-20-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:16:5-19:18
-21        android:name="com.ganapthi.autoprofiler.permission.MAPS_RECEIVE"
-21-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:17:9-73
-22        android:protectionLevel="signature" >
-22-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:18:9-44
-23    </permission>
-24
-25    <uses-feature
-25-->[com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
-26        android:glEsVersion="0x00020000"
-26-->[com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
-27        android:required="true" />
-27-->[com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
-28
-29    <application
-29-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:21:5-75:19
-30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-30-->[androidx.core:core:1.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/efd788ae606860b921397083266c0625/core-1.0.0/AndroidManifest.xml:22:18-86
-31        android:debuggable="true"
-32        android:icon="@drawable/ic_launcher"
-32-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:22:9-45
-33        android:label="@string/app_name" >
-33-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:23:9-41
-34        <activity
-34-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:24:9-32:20
-35            android:name="com.ganapthi.autoprofiler.MapsActivity"
-35-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:25:13-66
-36            android:label="@string/app_name" >
-36-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:26:13-45
-37            <intent-filter>
-37-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:27:13-31:29
-38                <action android:name="android.intent.action.MAPSACTIVITY" />
-38-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:28:17-77
-38-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:28:25-74
-39
-40                <category android:name="android.intent.category.DEFAULT" />
-40-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:30:17-76
-40-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:30:27-73
-41            </intent-filter>
-42        </activity>
-43        <activity
-43-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:33:9-41:20
-44            android:name="com.ganapthi.autoprofiler.AndroidGPSTrackingActivity"
-44-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:34:13-80
-45            android:label="@string/app_name" >
-45-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:35:13-45
-46            <intent-filter>
-46-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:36:13-40:29
-47                <action android:name="android.intent.action.ANDROIDGPSTRACKINGACTIVITY" />
-47-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:37:17-91
-47-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:37:25-88
-48
-49                <category android:name="android.intent.category.DEFAULT" />
-49-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:30:17-76
-49-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:30:27-73
-50            </intent-filter>
-51        </activity>
-52
-53        <meta-data
-53-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:43:9-45:71
-54            android:name="com.google.android.maps.v2.API_KEY"
-54-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:44:13-62
-55            android:value="AIzaSyAkN6Vzd6_sEsKfg3KrYFwcOkaHOEiKoww" />
-55-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:45:13-68
-56        <meta-data
-56-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:47:9-50:21
-57            android:name="com.google.android.gms.version"
-57-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:48:13-58
-58            android:value="@integer/google_play_services_version" >
-58-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:49:13-66
-59        </meta-data>
-60
-61        <activity
-61-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:54:9-62:20
-62            android:name="com.ganapthi.autoprofiler.ProfileList"
-62-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:55:13-65
-63            android:label="@string/title_activity_profile_list"
-63-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:56:13-64
-64            android:noHistory="true" >
-64-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:57:13-37
-65            <intent-filter>
-65-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:58:14-61:29
-66                <action android:name="android.intent.action.MAIN" />
-66-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:59:17-69
-66-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:59:25-66
-67
-68                <category android:name="android.intent.category.LAUNCHER" />
-68-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:60:17-77
-68-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:60:27-74
-69            </intent-filter>
-70        </activity>
-71
-72        <service
-72-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:64:9-68:19
-73            android:name="com.ganapthi.autoprofiler.LocationService"
-73-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:64:41-97
-74            android:enabled="true" >
-74-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:64:18-40
-75            <intent-filter>
-75-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:65:13-67:29
-76                <action android:name="com.nightowl.profiler.intent.action.SERVICE" />
-76-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:66:17-86
-76-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:66:25-83
-77            </intent-filter>
-78        </service>
-79        <service
-79-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:70:9-103
-80            android:name="com.ganapthi.autoprofiler.GPSTracker"
-80-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:70:18-69
-81            android:enabled="true" />
-81-->/home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:70:70-92
-82
-83        <!--
-84        <receiver android:name="com.nightowl.profiler.ProximityDetector" android:enabled="true">
-85        </receiver>
-86        -->
+16-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:12:5-67
+16-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:12:22-64
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:13:5-80
+17-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:13:22-78
+18
+19    <permission
+19-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:15:5-18:18
+20        android:name="com.ganapthi.autoprofiler.permission.MAPS_RECEIVE"
+20-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:16:9-73
+21        android:protectionLevel="signature" >
+21-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:17:9-44
+22    </permission>
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+27
+28    <application
+28-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:20:5-74:19
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/efd788ae606860b921397083266c0625/core-1.0.0/AndroidManifest.xml:22:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:21:9-43
+32        android:label="@string/app_name" >
+32-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:22:9-41
+33        <activity
+33-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:23:9-31:20
+34            android:name="com.ganapthi.autoprofiler.MapsActivity"
+34-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:24:13-66
+35            android:label="@string/app_name" >
+35-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:25:13-45
+36            <intent-filter>
+36-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:26:13-30:29
+37                <action android:name="android.intent.action.MAPSACTIVITY" />
+37-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:27:17-77
+37-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:27:25-74
+38
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:29:17-76
+39-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:29:27-73
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:32:9-40:20
+43            android:name="com.ganapthi.autoprofiler.AndroidGPSTrackingActivity"
+43-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:33:13-80
+44            android:label="@string/app_name" >
+44-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:34:13-45
+45            <intent-filter>
+45-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:35:13-39:29
+46                <action android:name="android.intent.action.ANDROIDGPSTRACKINGACTIVITY" />
+46-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:36:17-91
+46-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:36:25-88
+47
+48                <category android:name="android.intent.category.DEFAULT" />
+48-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:29:17-76
+48-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:29:27-73
+49            </intent-filter>
+50        </activity>
+51
+52        <meta-data
+52-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:42:9-44:71
+53            android:name="com.google.android.maps.v2.API_KEY"
+53-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:43:13-62
+54            android:value="AIzaSyAkN6Vzd6_sEsKfg3KrYFwcOkaHOEiKoww" />
+54-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:44:13-68
+55        <meta-data
+55-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:46:9-49:21
+56            android:name="com.google.android.gms.version"
+56-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:47:13-58
+57            android:value="@integer/google_play_services_version" >
+57-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:48:13-66
+58        </meta-data>
+59
+60        <activity
+60-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:53:9-61:20
+61            android:name="com.ganapthi.autoprofiler.ProfileList"
+61-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:54:13-65
+62            android:label="@string/title_activity_profile_list"
+62-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:55:13-64
+63            android:noHistory="true" >
+63-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:56:13-37
+64            <intent-filter>
+64-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:57:14-60:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:58:17-69
+65-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:58:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:59:17-77
+67-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:59:27-74
+68            </intent-filter>
+69        </activity>
+70
+71        <service
+71-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:63:9-67:19
+72            android:name="com.ganapthi.autoprofiler.LocationService"
+72-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:63:41-97
+73            android:enabled="true" >
+73-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:63:18-40
+74            <intent-filter>
+74-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:64:13-66:29
+75                <action android:name="com.ganapthi.autoprofiler.intent.action.SERVICE" />
+75-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:65:17-90
+75-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:65:25-87
+76            </intent-filter>
+77        </service>
+78        <service
+78-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:69:9-103
+79            android:name="com.ganapthi.autoprofiler.GPSTracker"
+79-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:69:18-69
+80            android:enabled="true" />
+80-->/home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:69:70-92
+81
+82        <!--
+83        <receiver android:name="com.ganapthi.autoprofiler.ProximityDetector" android:enabled="true">
+84        </receiver>
+85        -->
+86
 87
-88
-89        <!-- Needs to be explicitly declared on P+ -->
-90        <uses-library
-90-->[com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-91            android:name="org.apache.http.legacy"
-91-->[com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-92            android:required="false" />
-92-->[com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-93
-94        <activity
-94-->[com.google.android.gms:play-services-base:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-95-->[com.google.android.gms:play-services-base:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-96            android:exported="false"
-96-->[com.google.android.gms:play-services-base:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-97-->[com.google.android.gms:play-services-base:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-98    </application>
-99
-100</manifest>
+88        <!-- Needs to be explicitly declared on P+ -->
+89        <uses-library
+89-->[com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+90            android:name="org.apache.http.legacy"
+90-->[com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+91            android:required="false" />
+91-->[com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+92
+93        <activity
+93-->[com.google.android.gms:play-services-base:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+94            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+94-->[com.google.android.gms:play-services-base:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+95            android:exported="false"
+95-->[com.google.android.gms:play-services-base:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.android.gms:play-services-base:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+97    </application>
+98
+99</manifest>

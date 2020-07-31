@@ -20,7 +20,7 @@ import android.widget.Toast;
 
 public class LocationService extends Service implements LocationListener {
 	
-	private  final String proximityIntentAction = "com.nightowl.profiler.Proximity";
+	private  final String proximityIntentAction = "com.ganapthi.autoprofiler.Proximity";
 
 	SQLiteDatabase db;
 

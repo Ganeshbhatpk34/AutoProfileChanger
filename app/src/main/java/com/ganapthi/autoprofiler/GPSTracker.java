@@ -36,7 +36,7 @@ public class GPSTracker extends Service implements LocationListener {
 	// The minimum time between updates in milliseconds
 	private static final long MIN_TIME_BW_UPDATES = 0; // 0 minute
 
-	//private final String proximityIntentAction = "com.nightowl.profiler.ProximityDetector";
+	//private final String proximityIntentAction = "com.ganapthi.autoprofiler.ProximityDetector";
 	
 	// Declaring a Location Manager
 	protected LocationManager locationManager;
@@ -120,7 +120,7 @@ public class GPSTracker extends Service implements LocationListener {
 			String name, String profile) {
 
 		//Context context = getApplicationContext();
-		Intent intent = new Intent("com.nightowl.profiler.intent.action.PROXIMITY");
+		Intent intent = new Intent("com.ganapthi.autoprofiler.intent.action.PROXIMITY");
 
 		// store name and profile for that location
 		// in the intent required by the service

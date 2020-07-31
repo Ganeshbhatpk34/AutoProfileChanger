@@ -7,10 +7,9 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-    <uses-permission android:name="com.nightowl.profiler.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.ganapthi.autoprofiler.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <permission
@@ -19,7 +18,7 @@
     </permission>
 
     <application
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name" >
         <activity
             android:name="com.ganapthi.autoprofiler.MapsActivity"
@@ -63,13 +62,13 @@
         
         <service android:enabled="true" android:name="com.ganapthi.autoprofiler.LocationService">
             <intent-filter>
-                <action android:name="com.nightowl.profiler.intent.action.SERVICE" />
+                <action android:name="com.ganapthi.autoprofiler.intent.action.SERVICE" />
             </intent-filter>
         </service>
         
         <service android:name="com.ganapthi.autoprofiler.GPSTracker" android:enabled="true"></service>
         
-        <!-- <receiver android:name="com.nightowl.profiler.ProximityDetector" android:enabled="true">
+        <!-- <receiver android:name="com.ganapthi.autoprofiler.ProximityDetector" android:enabled="true">
         </receiver> -->
         
     </application>

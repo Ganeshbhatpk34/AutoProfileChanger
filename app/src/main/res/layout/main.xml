@@ -2,7 +2,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
- 	
     android:orientation="vertical" >
 
     <TextView
@@ -16,7 +15,7 @@
 
     <EditText
         android:id="@+id/etName"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/tvName"
@@ -38,7 +37,7 @@
 
     <EditText
         android:id="@+id/etlongitude"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/tvLongitude"
@@ -57,61 +56,110 @@
 
     <EditText
         android:id="@+id/etLatitude"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/tvLatitude"
         android:ems="10"
         android:inputType="text" />
 
-      <Button
-          android:id="@+id/btnSave"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_alignParentBottom="true"
-          android:layout_centerHorizontal="true"
-          android:background="@drawable/button"
-          android:gravity="center"
-          android:shadowColor="#A8A8A8"
-          android:text="Save"
-          android:textColor="@android:color/black"
-          android:textSize="25sp" />
+    <LinearLayout
+        android:id="@+id/linearLay1"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etLatitude"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center">
 
-      <Button
-          android:id="@+id/btnShowLocation"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_below="@+id/etLatitude"
-          android:layout_centerHorizontal="true"
-          android:layout_marginTop="14dp"
-          android:background="@drawable/button"
-          android:gravity="center"
-          android:shadowColor="#A8A8A8"
-          android:text="Obtain Location"
-          android:textColor="@android:color/black"
-          android:textSize="25sp" />
+        <ImageView
+            android:src="@drawable/ic_my_location_black_24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" />
 
-      <Button
-          android:id="@+id/btnShowMap"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_below="@+id/btnShowLocation"
-          android:layout_centerHorizontal="true"
-          android:layout_marginTop="11dp"
-          android:background="@drawable/button"
-          android:gravity="center"
-          android:shadowColor="#A8A8A8"
-          android:text="Show Map"
-          android:textColor="@android:color/black"
-          android:textSize="25sp"
-          android:visibility="gone"  />
+        <Button
+            android:id="@+id/btnShowLocation"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Obtain Location"
+            android:textColor="@android:color/white"
+            style="@style/proceedButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLay2"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLay1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center">
+
+        <ImageView
+            android:src="@drawable/ic_place_black_24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btnShowMap"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Show Map"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            style="@style/proceedButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLay3"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <ImageView
+            android:src="@drawable/ic_check_circle_black_24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Save"
+            android:textColor="@android:color/white"
+            android:enabled="false"
+            style="@style/proceedButtonStyle" />
+
+    </LinearLayout>
 
       <Spinner
           android:id="@+id/spinner"
           android:layout_width="fill_parent"
           android:layout_height="wrap_content"
           android:layout_alignParentLeft="true"
-          android:layout_below="@+id/btnShowMap"
+          android:layout_below="@+id/linearLay2"
           android:layout_marginTop="18dp"
           android:entries="@array/items"
           android:prompt="@string/spinner" />

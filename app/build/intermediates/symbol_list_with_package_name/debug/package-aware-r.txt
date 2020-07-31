@@ -62,6 +62,7 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color ic_launcher_background
 color notification_action_color_filter
 color notification_icon_bg_color
 color ripple_material_light
@@ -90,7 +91,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
-drawable button
+drawable button_selector
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -112,7 +113,12 @@ drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
-drawable ic_launcher
+drawable ic_add_location_black_24dp
+drawable ic_check_circle_black_24dp
+drawable ic_launcher_foreground
+drawable ic_location_off_black_24dp
+drawable ic_my_location_black_24dp
+drawable ic_place_black_24dp
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -149,6 +155,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id dark
+id delete
 id end
 id etLatitude
 id etName
@@ -167,6 +174,10 @@ id left
 id light
 id line1
 id line3
+id linearLay
+id linearLay1
+id linearLay2
+id linearLay3
 id linearLayout1
 id listView1
 id map
@@ -213,6 +224,7 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 menu profile_list
 menu proximity_detector
+mipmap ic_launcher
 string action_settings
 string app_name
 string common_google_play_services_enable_button
@@ -255,6 +267,7 @@ style TextAppearance_Compat_Notification_Title
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
 style Widget_Support_CoordinatorLayout
+style proceedButtonStyle
 styleable ColorStateListItem android_color android_alpha alpha
 styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline

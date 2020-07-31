@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -18,11 +19,18 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 public class ProfileList extends Activity {
 
+	private static final int PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 123;
+
 	ListView profileList;
-	Button add;
+	Button add, delete;
 
 	SQLiteDatabase db;
 	DatabaseAccess db_access;
@@ -39,6 +47,10 @@ public class ProfileList extends Activity {
 
 		profileList = (ListView) findViewById(R.id.listView1);
 		add = (Button) findViewById(R.id.add);
+		delete = (Button) findViewById(R.id.delete);
+
+		getLocationPermission();
+
 		add.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -49,21 +61,32 @@ public class ProfileList extends Activity {
 			}
 		});
 
+		delete.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				db_access.clearLocation(db);
+				setList();
+			}
+		});
+
 		db_access = new DatabaseAccess(this);
 		db = db_access.openDatabase();
 
+		setList();
+
+	}
+
+	public void setList(){
 		// retrieve location from database
 		Cursor c = db_access.retrieveLocation(db);
 
 		profileNames = new ArrayList<String>();
 		profileMode = new ArrayList<String>();
-		
-		profileNames.clear();
 
 		while (c.moveToNext()) {
 			int name = c.getColumnIndex("name");
 			int profile = c.getColumnIndex("profile");
-			
+
 			mode = c.getString(profile);
 			listName = c.getString(name);
 			profileNames.add(listName);
@@ -106,20 +129,20 @@ public class ProfileList extends Activity {
 
 				@Override
 				public void onItemClick(AdapterView<?> arg0, View view,
-						int position, long id) {
+										int position, long id) {
 				}
 			});
 
 			// on item long click, allows to edit the profile
 			profileList.setOnItemLongClickListener(new OnItemLongClickListener() {
 
-						@Override
-						public boolean onItemLongClick(AdapterView<?> arg0,
-								View view, int position, long id) {
-							// TODO Auto-generated method stub
-							return false;
-						}
-					});
+				@Override
+				public boolean onItemLongClick(AdapterView<?> arg0,
+											   View view, int position, long id) {
+					// TODO Auto-generated method stub
+					return false;
+				}
+			});
 
 			// starting the service
 			startService(new Intent(this, LocationService.class));
@@ -160,11 +183,35 @@ public class ProfileList extends Activity {
 		}
 	}
 
-	/*@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.profile_list, menu);
-		return true;
-	}*/
+	private void getLocationPermission() {
+		if (ContextCompat.checkSelfPermission(this.getApplicationContext(),
+				android.Manifest.permission.ACCESS_FINE_LOCATION)
+				== PackageManager.PERMISSION_GRANTED) {
+
+		} else {
+			ActivityCompat.requestPermissions(this,
+					new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION,
+							android.Manifest.permission.ACCESS_FINE_LOCATION,
+							android.Manifest.permission.WRITE_EXTERNAL_STORAGE,
+							android.Manifest.permission.ACCESS_NETWORK_STATE,
+							android.Manifest.permission.INTERNET},
+					PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
+		}
+	}
+
+	@Override
+	public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+		super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+		switch (requestCode) {
+			default: {
+				if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+				} else {
+					Toast.makeText(getApplicationContext(),
+							getString(R.string.app_name) + " was not allowed to access your location" ,Toast.LENGTH_LONG).show();
+				}
+			}
+		}
+	}
 
 }

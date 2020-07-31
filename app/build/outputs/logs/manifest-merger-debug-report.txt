@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:2:1-77:12
-INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:2:1-77:12
-INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:2:1-77:12
-INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:2:1-77:12
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:2:1-76:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/498abde944f350e22462b2703aea22a7/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
@@ -33,67 +33,63 @@ MERGED from [androidx.print:print:1.0.0] /home/ganapathi/.gradle/caches/transfor
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/dcf4af4213d59bd5fe489359c2b51b96/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/e5f4ab83b7154d8dd7689c213d4008f9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/3ad98f043f0e278e1b4f445317842885/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:2:1-77:12
-INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:2:1-77:12
-INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:2:1-77:12
+INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:2:1-76:12
 	package
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:3:5-40
-		INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:7:5-79
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:7:22-76
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:7:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:8:5-81
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:8:22-78
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:8:22-78
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:9:5-98
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:9:5-98
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:9:22-95
-uses-permission#com.nightowl.profiler.permission.MAPS_RECEIVE
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:10:5-85
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:9:22-95
+uses-permission#com.ganapthi.autoprofiler.permission.MAPS_RECEIVE
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:10:5-89
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:10:22-82
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:10:22-86
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:11:5-79
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:11:22-76
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:11:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:12:5-67
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:12:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:12:22-64
-uses-permission#android.permission.ACCESS_MOCK_LOCATION
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:13:5-78
-	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:13:22-76
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:12:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:14:5-80
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:13:5-80
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:14:22-78
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:13:22-78
 permission#com.ganapthi.autoprofiler.permission.MAPS_RECEIVE
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:16:5-19:18
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:15:5-18:18
 	android:protectionLevel
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:18:9-44
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:17:9-44
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:17:9-73
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:16:9-73
 application
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:21:5-75:19
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:20:5-74:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/498abde944f350e22462b2703aea22a7/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
@@ -113,91 +109,91 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/ganap
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/efd788ae606860b921397083266c0625/core-1.0.0/AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:23:9-41
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:22:9-41
 	android:icon
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:22:9-45
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:21:9-43
 activity#com.ganapthi.autoprofiler.MapsActivity
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:24:9-32:20
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:23:9-31:20
 	android:label
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:26:13-45
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:25:13-45
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:25:13-66
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:24:13-66
 intent-filter#action:name:android.intent.action.MAPSACTIVITY+category:name:android.intent.category.DEFAULT
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:27:13-31:29
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAPSACTIVITY
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:28:17-77
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:28:25-74
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:27:25-74
 category#android.intent.category.DEFAULT
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:30:17-76
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:29:17-76
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:30:27-73
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:29:27-73
 activity#com.ganapthi.autoprofiler.AndroidGPSTrackingActivity
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:33:9-41:20
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:32:9-40:20
 	android:label
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:35:13-45
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:34:13-45
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:34:13-80
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:33:13-80
 intent-filter#action:name:android.intent.action.ANDROIDGPSTRACKINGACTIVITY+category:name:android.intent.category.DEFAULT
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:36:13-40:29
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:35:13-39:29
 action#android.intent.action.ANDROIDGPSTRACKINGACTIVITY
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:37:17-91
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:36:17-91
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:37:25-88
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:36:25-88
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:43:9-45:71
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:42:9-44:71
 	android:value
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:45:13-68
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:44:13-68
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:44:13-62
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:43:13-62
 meta-data#com.google.android.gms.version
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:47:9-50:21
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:46:9-49:21
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/f720b24cc490c109d50c0a0a1e6bf186/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:49:13-66
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:48:13-66
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:48:13-58
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:47:13-58
 activity#com.ganapthi.autoprofiler.ProfileList
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:54:9-62:20
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:53:9-61:20
 	android:label
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:56:13-64
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:55:13-64
 	android:noHistory
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:57:13-37
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:56:13-37
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:55:13-65
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:54:13-65
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:58:14-61:29
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:57:14-60:29
 action#android.intent.action.MAIN
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:59:17-69
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:58:17-69
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:59:25-66
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:58:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:60:17-77
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:59:17-77
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:60:27-74
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:59:27-74
 service#com.ganapthi.autoprofiler.LocationService
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:64:9-68:19
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:63:9-67:19
 	android:enabled
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:64:18-40
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:63:18-40
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:64:41-97
-intent-filter#action:name:com.nightowl.profiler.intent.action.SERVICE
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:65:13-67:29
-action#com.nightowl.profiler.intent.action.SERVICE
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:66:17-86
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:63:41-97
+intent-filter#action:name:com.ganapthi.autoprofiler.intent.action.SERVICE
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:64:13-66:29
+action#com.ganapthi.autoprofiler.intent.action.SERVICE
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:65:17-90
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:66:25-83
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:65:25-87
 service#com.ganapthi.autoprofiler.GPSTracker
-ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:70:9-103
+ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:69:9-103
 	android:enabled
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:70:70-92
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:69:70-92
 	android:name
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml:70:18-69
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml:69:18-69
 uses-sdk
-INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
-INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
+INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
+INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/498abde944f350e22462b2703aea22a7/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
@@ -256,16 +252,16 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/ganapathi/.
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/e5f4ab83b7154d8dd7689c213d4008f9/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/3ad98f043f0e278e1b4f445317842885/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/3ad98f043f0e278e1b4f445317842885/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
-INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
+INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
+INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
-		ADDED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ganapathi/Downloads/codecanyon-21952065-android-woocommerce-universal-native-android-ecommerce/Android Woocommerce Source Code/Android-Ringer-mode-changer-master1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
+		ADDED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ganapathi/Documents/GIT-Android/Github/AutoProfileChanger/AutoProfileChanger/app/src/main/AndroidManifest.xml
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/ganapathi/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion

@@ -3,20 +3,61 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
-    <Button
-        android:id="@+id/add"
-        style="?android:attr/buttonStyleSmall"
+    <LinearLayout
+        android:id="@+id/linearLay"
+        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:text="Add Profile" />
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:src="@drawable/ic_add_location_black_24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text=" Add "
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            style="@style/proceedButtonStyle" />
+
+        <ImageView
+            android:src="@drawable/ic_location_off_black_24dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text=" Clear "
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            style="@style/proceedButtonStyle" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/add"
+        android:layout_alignBottom="@+id/linearLay"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true" >
 
