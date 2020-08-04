@@ -2,7 +2,9 @@ package com.ganapthi.autoprofiler;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.sqlite.SQLiteDatabase;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -11,6 +13,12 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import java.util.Locale;
+
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
 public class AndroidGPSTrackingActivity extends Activity {
 
 	Button btnShowLocation, btnSave, btnShowMap;
@@ -18,12 +26,14 @@ public class AndroidGPSTrackingActivity extends Activity {
 	EditText etLongitude, etLatitude, name;
 	Double longitude, latitude;
 	String profile_name, profile;
+    private static final int PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 123;
 
 	// GPSTracker class
 	GPSTracker gps;
 
 	// location class
 	Location loc;
+    private SimpleLocation location;
 
 	// SQL object
 	SQLiteDatabase db;
@@ -93,21 +103,8 @@ public class AndroidGPSTrackingActivity extends Activity {
 				// check if GPS enabled
 				if (gps.canGetLocation()) {
 
-					double latitude = gps.getLatitude();
-					double longitude = gps.getLongitude();
+                    getLocationPermission();
 
-					// \n is for new line
-					Toast.makeText(
-							getApplicationContext(),
-							"Your Location is - \nLat: " + latitude
-									+ "\nLong: " + longitude, Toast.LENGTH_LONG)
-							.show();
-
-					String lat = Double.toString(latitude);
-					String lon = Double.toString(longitude);
-
-					etLongitude.setText(lat);
-					etLatitude.setText(lon);
 				} else {
 					// can't get location
 					// GPS or Network is not enabled
@@ -123,11 +120,49 @@ public class AndroidGPSTrackingActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent showMapIntent = new Intent(
-						"android.intent.action.MAPSACTIVITY");
-				startActivity(showMapIntent);
+                String uri = String.format(Locale.ENGLISH, "geo:%f,%f", latitude, longitude);
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+                startActivity(intent);
 			}
 		});
 
 	}
+
+    private void getLocationPermission() {
+        if (ContextCompat.checkSelfPermission(this.getApplicationContext(),
+                android.Manifest.permission.ACCESS_FINE_LOCATION)
+                == PackageManager.PERMISSION_GRANTED) {
+            location = new SimpleLocation(this);
+            etLongitude.setText(String.valueOf(location.getLongitude()));
+            etLatitude.setText(String.valueOf(location.getLatitude()));
+
+            longitude = location.getLongitude();
+            latitude = location.getLatitude();
+
+			btnShowMap.setEnabled(true);
+        } else {
+            ActivityCompat.requestPermissions(this,
+                    new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION,
+                            android.Manifest.permission.ACCESS_FINE_LOCATION,
+                            android.Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                            android.Manifest.permission.ACCESS_NETWORK_STATE,
+                            android.Manifest.permission.INTERNET},
+                    PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            default: {
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+                } else {
+                    Toast.makeText(getApplicationContext(),
+                            getString(R.string.app_name) + " was not allowed to access your location" ,Toast.LENGTH_LONG).show();
+                }
+            }
+        }
+    }
 }
